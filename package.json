@@ -1,0 +1,60 @@
+{
+  "name": "graphql-security",
+  "version": "0.0.1",
+  "license": "MIT",
+  "authors": [
+    "Aramis Fernandes",
+    "Matija Gaspar",
+    "Richard Keil"
+  ],
+  "repository": "git@github.com:fsdtf/graphql-security.git",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-cli",
+    "build": "cross-env NODE_ENV=production webpack-cli",
+    "test": "jest",
+    "lint": "eslint --max-warnings 20 ./src",
+    "clean": "git clean -fdX ."
+  },
+  "dependencies": {
+    "cross-env": "5.2.0",
+    "graphql": "0.13.2",
+    "rxjs": "6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.1.6",
+    "@babel/plugin-proposal-export-default-from": "7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "7.2.0",
+    "@babel/plugin-proposal-numeric-separator": "7.2.0",
+    "@babel/plugin-proposal-optional-catch-binding": "7.2.0",
+    "@babel/plugin-proposal-throw-expressions": "7.2.0",
+    "@babel/preset-env": "7.0.0-beta.53",
+    "@commitlint/cli": "7.2.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "8.2.6",
+    "babel-jest": "23.6.0",
+    "babel-loader": "8.0.0-beta.0",
+    "babel-plugin-macros": "2.4.4",
+    "eslint": "5.1.0",
+    "eslint-import-resolver-node": "0.3.2",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-jest": "21.17.0",
+    "file-loader": "1.1.11",
+    "husky": "1.3.1",
+    "jest": "23.6.0",
+    "jest-chain": "1.0.5",
+    "jest-extended": "0.11.0",
+    "jest-junit-reporter": "1.1.0",
+    "jest-runner-eslint": "0.6.0",
+    "jest-workspace-resolver": "1.0.0",
+    "source-map-support": "0.5.9",
+    "webpack": "4.16.0",
+    "webpack-cli": "3.0.8",
+    "webpack-node-externals": "1.7.2"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

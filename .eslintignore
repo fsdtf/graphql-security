@@ -1,0 +1,12 @@
+# ignore packages/caches
+node_modules/
+PSD/
+hot/
+lib/
+dist/
+build/
+release/
+temp/
+tmp/
+.vagrant
+**/__generated__/*

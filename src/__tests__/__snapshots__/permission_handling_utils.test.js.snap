@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`resolverWrapper() check many 1`] = `
+Array [
+  Object {
+    "email": "email",
+    "first_name": "first_name",
+    "id": "id1",
+  },
+  Object {
+    "email": "email2",
+    "id": "id2",
+  },
+]
+`;
+
+exports[`resolverWrapper() check many promise 1`] = `
+Array [
+  Object {
+    "email": "email",
+    "first_name": "first_name",
+    "id": "id1",
+  },
+  Object {
+    "email": "email2",
+    "id": "id2",
+  },
+]
+`;
+
+exports[`resolverWrapper() check single 1`] = `
+Object {
+  "email": "email",
+  "id": "id",
+}
+`;
+
+exports[`resolverWrapper() check single promise 1`] = `
+Object {
+  "email": "email",
+  "id": "id",
+}
+`;
+
+exports[`secureResult() check snap 1`] = `
+Object {
+  "email": "test@mail.com",
+  "id": "test_empl1",
+}
+`;
+
+exports[`wrapResolvers check snapshot 1`] = `
+Object {
+  "Entity": Object {
+    "id": [Function],
+  },
+}
+`;

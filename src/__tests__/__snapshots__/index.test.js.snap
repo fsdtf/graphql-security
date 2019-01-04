@@ -1,0 +1,5601 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getDefaultRuleset 1`] = `
+Object {
+  "id": "0000000000000-0000-0000-111111111111",
+  "rules": Object {
+    "Client": Object {
+      "col": Object {
+        "client_since": Object {
+          "any": false,
+        },
+        "created_at": Object {
+          "any": false,
+        },
+        "description": Object {
+          "any": false,
+        },
+        "id": Object {
+          "any": true,
+        },
+        "is_confidential": Object {
+          "any": false,
+        },
+        "logo_url": Object {
+          "any": false,
+        },
+        "name": Object {
+          "any": false,
+        },
+        "projects": Object {
+          "any": false,
+        },
+        "updated_at": Object {
+          "any": false,
+        },
+      },
+      "row": Object {
+        "any": false,
+      },
+    },
+    "Employee": Object {
+      "col": Object {
+        "birthday": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "created_at": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "department": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "email": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "end_date": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "first_name": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "full_name": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "google_id": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "harvest_id": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "id": Object {
+          "any": true,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "interests": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "last_name": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "location": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "phones": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "photo_url": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "projects": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "skills": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "slack_id": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "start_date": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "subordinates": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "superior": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "suspended": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "updated_at": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+        "wrike_id": Object {
+          "any": false,
+          "isDisabled": false,
+          "isSuspended": false,
+          "own": false,
+          "suprerior": false,
+        },
+      },
+      "row": Object {
+        "any": false,
+        "isDisabled": false,
+        "isSuspended": false,
+        "own": false,
+        "suprerior": false,
+      },
+    },
+    "Mutation": Object {
+      "col": Object {
+        "addClientToProject": Object {
+          "any": false,
+        },
+        "addMemberToProject": Object {
+          "any": false,
+        },
+        "addTag": Object {
+          "any": false,
+        },
+        "changeMemberRole": Object {
+          "any": false,
+        },
+        "createClient": Object {
+          "any": false,
+        },
+        "createProject": Object {
+          "any": false,
+        },
+        "deleteTag": Object {
+          "any": false,
+        },
+        "editClientData": Object {
+          "any": false,
+        },
+        "editProjectProfile": Object {
+          "any": false,
+        },
+        "editTag": Object {
+          "any": false,
+        },
+        "joinProject": Object {
+          "any": false,
+        },
+        "leaveProject": Object {
+          "any": false,
+        },
+        "removeMemberFromProject": Object {
+          "any": false,
+        },
+        "renameTag": Object {
+          "any": false,
+        },
+        "updateEmployeeProfile": Object {
+          "any": false,
+          "own": false,
+        },
+      },
+      "row": Object {
+        "any": false,
+      },
+    },
+    "PhoneNumber": Object {
+      "col": Object {
+        "number": Object {
+          "any": false,
+        },
+        "type": Object {
+          "any": false,
+        },
+      },
+      "row": Object {
+        "any": false,
+      },
+    },
+    "Project": Object {
+      "col": Object {
+        "client": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "created_at": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "description": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "end_at": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "etventure_id": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "ey_id": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "google_drive_url": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "harvest_id": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "id": Object {
+          "any": true,
+          "manager": false,
+          "member": false,
+        },
+        "logo_url": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "members": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "name": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "salesforce_url": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "slack_channel": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "start_at": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "tags": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+        "updated_at": Object {
+          "any": false,
+          "manager": false,
+          "member": false,
+        },
+      },
+      "row": Object {
+        "any": false,
+        "manager": false,
+        "member": false,
+      },
+    },
+    "ProjectMember": Object {
+      "col": Object {
+        "birthday": Object {
+          "any": false,
+        },
+        "created_at": Object {
+          "any": false,
+        },
+        "department": Object {
+          "any": false,
+        },
+        "email": Object {
+          "any": false,
+        },
+        "employee_id": Object {
+          "any": false,
+        },
+        "end_date": Object {
+          "any": false,
+        },
+        "first_name": Object {
+          "any": false,
+        },
+        "full_name": Object {
+          "any": false,
+        },
+        "google_id": Object {
+          "any": false,
+        },
+        "harvest_id": Object {
+          "any": false,
+        },
+        "id": Object {
+          "any": true,
+        },
+        "interests": Object {
+          "any": false,
+        },
+        "joined_at": Object {
+          "any": false,
+        },
+        "last_name": Object {
+          "any": false,
+        },
+        "location": Object {
+          "any": false,
+        },
+        "membership_updated_at": Object {
+          "any": false,
+        },
+        "phones": Object {
+          "any": false,
+        },
+        "photo_url": Object {
+          "any": false,
+        },
+        "projects": Object {
+          "any": false,
+        },
+        "role": Object {
+          "any": false,
+        },
+        "role_description": Object {
+          "any": false,
+        },
+        "skills": Object {
+          "any": false,
+        },
+        "slack_id": Object {
+          "any": false,
+        },
+        "start_date": Object {
+          "any": false,
+        },
+        "subordinates": Object {
+          "any": false,
+        },
+        "superior": Object {
+          "any": false,
+        },
+        "suspended": Object {
+          "any": false,
+        },
+        "updated_at": Object {
+          "any": false,
+        },
+        "wrike_id": Object {
+          "any": false,
+        },
+      },
+      "row": Object {
+        "any": false,
+      },
+    },
+    "ProjectMembership": Object {
+      "col": Object {
+        "client": Object {
+          "any": false,
+        },
+        "created_at": Object {
+          "any": false,
+        },
+        "description": Object {
+          "any": false,
+        },
+        "end_at": Object {
+          "any": false,
+        },
+        "etventure_id": Object {
+          "any": false,
+        },
+        "ey_id": Object {
+          "any": false,
+        },
+        "google_drive_url": Object {
+          "any": false,
+        },
+        "harvest_id": Object {
+          "any": false,
+        },
+        "id": Object {
+          "any": true,
+        },
+        "joined_at": Object {
+          "any": false,
+        },
+        "logo_url": Object {
+          "any": false,
+        },
+        "members": Object {
+          "any": false,
+        },
+        "membership_updated_at": Object {
+          "any": false,
+        },
+        "name": Object {
+          "any": false,
+        },
+        "role": Object {
+          "any": false,
+        },
+        "role_description": Object {
+          "any": false,
+        },
+        "salesforce_url": Object {
+          "any": false,
+        },
+        "slack_channel": Object {
+          "any": false,
+        },
+        "start_at": Object {
+          "any": false,
+        },
+        "tags": Object {
+          "any": false,
+        },
+        "updated_at": Object {
+          "any": false,
+        },
+      },
+      "row": Object {
+        "any": false,
+      },
+    },
+    "Query": Object {
+      "col": Object {
+        "client": Object {
+          "any": false,
+        },
+        "employee": Object {
+          "any": false,
+        },
+        "employees": Object {
+          "any": false,
+        },
+        "me": Object {
+          "any": false,
+        },
+        "project": Object {
+          "any": false,
+        },
+        "projects": Object {
+          "any": false,
+        },
+        "tags": Object {
+          "any": false,
+        },
+      },
+      "row": Object {
+        "any": false,
+      },
+    },
+    "Subscription": Object {
+      "col": Object {
+        "employeeProfileUpdates": Object {
+          "any": false,
+        },
+      },
+      "row": Object {
+        "any": false,
+      },
+    },
+    "Tag": Object {
+      "col": Object {
+        "categories": Object {
+          "any": false,
+        },
+        "name": Object {
+          "any": false,
+        },
+      },
+      "row": Object {
+        "any": false,
+      },
+    },
+  },
+}
+`;
+
+exports[`getPermissionsDescriptions 1`] = `
+Object {
+  "Employee": Object {
+    "fields": Object {},
+    "type": Object {
+      "any": "Any relation of the user to the target employee",
+      "isDisabled": "Target employee is marked as disabled",
+      "isSuspended": "Target employee is marked as suspended",
+      "own": "Currently logged in user is the target employee",
+      "suprerior": "Currently logged in user is the superior of the target employee",
+    },
+  },
+  "Mutation": Object {
+    "fields": Object {
+      "updateEmployeeProfile": Object {
+        "any": "test 2",
+        "own": "own",
+      },
+    },
+    "type": Object {},
+  },
+  "Project": Object {
+    "fields": Object {},
+    "type": Object {
+      "any": "any",
+      "manager": "manager",
+      "member": "member",
+    },
+  },
+}
+`;
+
+exports[`getSchemaWithPermissions 1`] = `
+Array [
+  Object {
+    "description": "Queries are read-only operations. Use queries to fetch data from the server.
+
+Currently all available data is just dummy data, but you can use it to
+exercise your application.",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "id",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "ID",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "email",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "google_id",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "harvest_id",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "slack_id",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "wrike_id",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Find an employee by one of its \`ID\`'s: \`id\`, \`Wrike\`, \`Harvest\`
+and so on. \`email\` can also be informed. If more than a field is
+informed, the following order will be taken into account:
+1. id
+2. email
+3. google_id
+4. harvest_id
+5. slack_id
+6. wrike_id",
+        "isDeprecated": false,
+        "name": "employee",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Employee",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "The Employee listing query. No parameters needed, and it can return
+any data you might need about employees (according to your access
+rights, of course).",
+        "isDeprecated": false,
+        "name": "employees",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "LIST",
+            "name": null,
+            "ofType": Object {
+              "kind": "OBJECT",
+              "name": "Employee",
+              "ofType": null,
+            },
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "\`me\` returns the information on the employee that is currently
+logged in, or the guy stored in the session",
+        "isDeprecated": false,
+        "name": "me",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Employee",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "Use this query to list all projects, inspect its teams, client, etc.
+
+Note that:
+1. You will only see the information you have access to;
+2. \`null\` values are returned when information is not available.",
+        "isDeprecated": false,
+        "name": "projects",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "LIST",
+            "name": null,
+            "ofType": Object {
+              "kind": "OBJECT",
+              "name": "Project",
+              "ofType": null,
+            },
+          },
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "id",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "ID",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "etventure_id",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "harvest_id",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "ey_id",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Here you can fetch information about a project by giving its \`ID\`.
+
+To find a project's \`ID\`, just query for the \`ID\` field while listing
+all projects (check the \`projects\` query above)",
+        "isDeprecated": false,
+        "name": "project",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Project",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "id",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "ID",
+              "ofType": null,
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "This query is a work in progress, not much fun available here
+(it doesn't mean you cannot play around \`^^\`)",
+        "isDeprecated": false,
+        "name": "client",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Client",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "categories",
+            "type": Object {
+              "kind": "LIST",
+              "name": null,
+              "ofType": Object {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": Object {
+                  "kind": "SCALAR",
+                  "name": "String",
+                  "ofType": null,
+                },
+              },
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Returns all tags, grouped by name. You can optionally provide a list of
+categories to",
+        "isDeprecated": false,
+        "name": "tags",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "LIST",
+            "name": null,
+            "ofType": Object {
+              "kind": "OBJECT",
+              "name": "Tag",
+              "ofType": null,
+            },
+          },
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [],
+    "kind": "OBJECT",
+    "name": "Query",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "The \`ID\` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as \`\\"4\\"\`) or integer (such as \`4\`) input value will be accepted as an ID.",
+    "enumValues": null,
+    "fields": null,
+    "inputFields": null,
+    "interfaces": null,
+    "kind": "SCALAR",
+    "name": "ID",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "The \`String\` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.",
+    "enumValues": null,
+    "fields": null,
+    "inputFields": null,
+    "interfaces": null,
+    "kind": "SCALAR",
+    "name": "String",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "id",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "birthday",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "department",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "email",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "end_date",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "first_name",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "full_name",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "google_id",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "harvest_id",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "interests",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "Tag",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "last_name",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "location",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "phones",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "PhoneNumber",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "photo_url",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "projects",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "ProjectMembership",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "skills",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "Tag",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "slack_id",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "start_date",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "subordinates",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "Employee",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "superior",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Employee",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "suspended",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "Boolean",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "wrike_id",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "updated_at",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "created_at",
+        "permissions": Object {
+          "any": "Any relation of the user to the target employee",
+          "isDisabled": "Target employee is marked as disabled",
+          "isSuspended": "Target employee is marked as suspended",
+          "own": "Currently logged in user is the target employee",
+          "suprerior": "Currently logged in user is the superior of the target employee",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [
+      Object {
+        "kind": "INTERFACE",
+        "name": "EmployeeInterface",
+        "ofType": null,
+      },
+    ],
+    "kind": "OBJECT",
+    "name": "Employee",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "Code repetition just for the sake of type safety usage ;)",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "id",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "birthday",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "department",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "email",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "end_date",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "first_name",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "full_name",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "google_id",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "harvest_id",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "interests",
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "Tag",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "last_name",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "location",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "phones",
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "PhoneNumber",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "photo_url",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "projects",
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "ProjectMembership",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "skills",
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "Tag",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "slack_id",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "start_date",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "subordinates",
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "Employee",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "superior",
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Employee",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "suspended",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "Boolean",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "wrike_id",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "updated_at",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "created_at",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": null,
+    "kind": "INTERFACE",
+    "name": "EmployeeInterface",
+    "possibleTypes": Array [
+      Object {
+        "kind": "OBJECT",
+        "name": "Employee",
+        "ofType": null,
+      },
+      Object {
+        "kind": "OBJECT",
+        "name": "ProjectMember",
+        "ofType": null,
+      },
+    ],
+  },
+  Object {
+    "description": "Every tag that has a name belong to at least one category.",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "name",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "categories",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [],
+    "kind": "OBJECT",
+    "name": "Tag",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "Not to point to the obvious but, yeah, this returns informations about
+a phone number..",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "type",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "number",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [],
+    "kind": "OBJECT",
+    "name": "PhoneNumber",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "ProjectMembership is a regular Project with extra information regarding
+its relationship with the target Employee",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "id",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "client",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Client",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "description",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "end_at",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "etventure_id",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "ey_id",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "google_drive_url",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "harvest_id",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "logo_url",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "members",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "ProjectMember",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "name",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "salesforce_url",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "slack_channel",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "start_at",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "tags",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "Tag",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "updated_at",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "created_at",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "joined_at",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "membership_updated_at",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "role",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "role_description",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [
+      Object {
+        "kind": "INTERFACE",
+        "name": "ProjectInterface",
+        "ofType": null,
+      },
+    ],
+    "kind": "OBJECT",
+    "name": "ProjectMembership",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "Code repetition just for the sake of type safety usage ;)",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "id",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "client",
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Client",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "description",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "end_at",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "etventure_id",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "ey_id",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "google_drive_url",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "harvest_id",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "logo_url",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "members",
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "ProjectMember",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "name",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "salesforce_url",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "slack_channel",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "start_at",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "tags",
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "Tag",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "updated_at",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "created_at",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": null,
+    "kind": "INTERFACE",
+    "name": "ProjectInterface",
+    "possibleTypes": Array [
+      Object {
+        "kind": "OBJECT",
+        "name": "ProjectMembership",
+        "ofType": null,
+      },
+      Object {
+        "kind": "OBJECT",
+        "name": "Project",
+        "ofType": null,
+      },
+    ],
+  },
+  Object {
+    "description": "",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "id",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "name",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "description",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "logo_url",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "client_since",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "DateTime",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "is_confidential",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "Boolean",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "projects",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "LIST",
+            "name": null,
+            "ofType": Object {
+              "kind": "OBJECT",
+              "name": "Project",
+              "ofType": null,
+            },
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "updated_at",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "created_at",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null,
+          },
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [],
+    "kind": "OBJECT",
+    "name": "Client",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "Date & Time in the ISO 8601 extended format (YYYY-MM-DDTHH:mm:ss.sssZ)",
+    "enumValues": null,
+    "fields": null,
+    "inputFields": null,
+    "interfaces": null,
+    "kind": "SCALAR",
+    "name": "DateTime",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "The \`Boolean\` scalar type represents \`true\` or \`false\`.",
+    "enumValues": null,
+    "fields": null,
+    "inputFields": null,
+    "interfaces": null,
+    "kind": "SCALAR",
+    "name": "Boolean",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "id",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "client",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Client",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "description",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "end_at",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "etventure_id",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "ey_id",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "google_drive_url",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "harvest_id",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "logo_url",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "members",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "ProjectMember",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "name",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "salesforce_url",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "slack_channel",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "start_at",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "tags",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "Tag",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "updated_at",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "created_at",
+        "permissions": Object {
+          "any": "any",
+          "manager": "manager",
+          "member": "member",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [
+      Object {
+        "kind": "INTERFACE",
+        "name": "ProjectInterface",
+        "ofType": null,
+      },
+    ],
+    "kind": "OBJECT",
+    "name": "Project",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "ProjectMember is a regular Employee with extra information regarding
+its relationship with the target project",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "id",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "employee_id",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "birthday",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "department",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "email",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "end_date",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "first_name",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "full_name",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "google_id",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "harvest_id",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "interests",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "Tag",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "last_name",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "location",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "phones",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "PhoneNumber",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "photo_url",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "projects",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "ProjectMembership",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "skills",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "Tag",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "slack_id",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "start_date",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "subordinates",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "Employee",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "superior",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Employee",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "suspended",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "Boolean",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "wrike_id",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "updated_at",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "created_at",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "joined_at",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "membership_updated_at",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "role",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "role_description",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [
+      Object {
+        "kind": "INTERFACE",
+        "name": "EmployeeInterface",
+        "ofType": null,
+      },
+    ],
+    "kind": "OBJECT",
+    "name": "ProjectMember",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "Mutations allow you to change data in the server.
+
+You can play around with \`updateEmployeeProfile\` mutation.
+
+Keep in mind that database is reset everytime there is a deploy.",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "client_id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "project_id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Creates a relationship between an existing client and an existing
+project",
+        "isDeprecated": false,
+        "name": "addClientToProject",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Project",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "project_id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "employee_id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "role",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "role_description",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Adds a member to a project, both \`employee_id\` and \`project_id\`
+must be informed. \`role\` is optional, if none given, defaults to
+\`member\`",
+        "isDeprecated": false,
+        "name": "addMemberToProject",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "ProjectMember",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "name",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "categories",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "LIST",
+                "name": null,
+                "ofType": Object {
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": Object {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null,
+                  },
+                },
+              },
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Adds a tag, along with its category. Both fields are mandatory.",
+        "isDeprecated": false,
+        "name": "addTag",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Tag",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "project_id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "employee_id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "role",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "role_description",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Changes a member role in a project, all parameters are mandatory",
+        "isDeprecated": false,
+        "name": "changeMemberRole",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "ProjectMember",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "name",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "etventure_id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "harvest_id",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "description",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "logo_url",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "is_confidential",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null,
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Creates a Client record. \`name\` must be informed, \`description\`
+and \`is_confidential\` are optional. \`is_confidential\` defaults
+to \`false\`",
+        "isDeprecated": false,
+        "name": "createClient",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Client",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "description",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "end_at",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "etventure_id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "ey_id",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "google_drive_url",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "harvest_id",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "logo_url",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "name",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "salesforce_url",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "slack_channel",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "start_at",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "tags",
+            "type": Object {
+              "kind": "LIST",
+              "name": null,
+              "ofType": Object {
+                "kind": "INPUT_OBJECT",
+                "name": "TagInput",
+                "ofType": null,
+              },
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Creates a Project, etventure_id must be provided, name must be unique",
+        "isDeprecated": false,
+        "name": "createProject",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Project",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "name",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Deletes a tag along with all its categories. The \`Tag\` name must
+be provided. If no \`Tag\` with the given name is found, an error
+is returned",
+        "isDeprecated": false,
+        "name": "deleteTag",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Tag",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "ID",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "name",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "description",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "logo_url",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "is_confidential",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null,
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Edits information regarding a client",
+        "isDeprecated": false,
+        "name": "editClientData",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Client",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "ID",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "description",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "ey_id",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "end_at",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "google_drive_url",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "logo",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "Upload",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "name",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "salesforce_url",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "slack_channel",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "start_at",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "tags",
+            "type": Object {
+              "kind": "LIST",
+              "name": null,
+              "ofType": Object {
+                "kind": "INPUT_OBJECT",
+                "name": "TagInput",
+                "ofType": null,
+              },
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Given a project ID, select it to update. Inform the data you would
+like to update and the operation will be performed according to your
+access rights. Only a project member with \`manager\` role and write
+permission to an attribute can change it.
+
+All attributes below can be changed, except id",
+        "isDeprecated": false,
+        "name": "editProjectProfile",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Project",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "name",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "categories",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "LIST",
+                "name": null,
+                "ofType": Object {
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": Object {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null,
+                  },
+                },
+              },
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Edits a category set for a Tag. An existing tag name must be provided
+The category list provided will overwrite the existing category list
+for that tag name.",
+        "isDeprecated": false,
+        "name": "editTag",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Tag",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "project_id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "role_description",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Any employee should be able to join a project, by assuming a role
+called \`self-assigned\`. Later, this can be detected by others
+and changed accordingly.
+\`project_id\` must be given; \`role_description\` is optional.
+The returned record is of the \`ProjectMember\` type, including
+information about the relation the user has with the given project",
+        "isDeprecated": false,
+        "name": "joinProject",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "ProjectMembership",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "project_id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Allows an employee to voluntarily leave a Project",
+        "isDeprecated": false,
+        "name": "leaveProject",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "ProjectMembership",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "project_id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "employee_id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Removes a member from a project, both \`employee_id\` and
+\`project_id\` must be informed",
+        "isDeprecated": false,
+        "name": "removeMemberFromProject",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "ProjectMember",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "from",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "to",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "Renames an existing tag. One must provide the current tag name and
+its new name. If no tag is found with the current name, it errors
+out warning the user about the problem.",
+        "isDeprecated": false,
+        "name": "renameTag",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Tag",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "ID",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "email",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "first_name",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "last_name",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "birthday",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "phones",
+            "type": Object {
+              "kind": "LIST",
+              "name": null,
+              "ofType": Object {
+                "kind": "INPUT_OBJECT",
+                "name": "PhoneNumberInput",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "department",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "location",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "photo",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "Upload",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "skills",
+            "type": Object {
+              "kind": "LIST",
+              "name": null,
+              "ofType": Object {
+                "kind": "INPUT_OBJECT",
+                "name": "TagInput",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "interests",
+            "type": Object {
+              "kind": "LIST",
+              "name": null,
+              "ofType": Object {
+                "kind": "INPUT_OBJECT",
+                "name": "TagInput",
+                "ofType": null,
+              },
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "start_date",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "left_at",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "suspended",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null,
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "By giving an employee \`ID\`, you can edit its attributes if you are
+this person's superior, or if it is your own profile.",
+        "isDeprecated": false,
+        "name": "updateEmployeeProfile",
+        "permissions": Object {
+          "any": "test 2",
+          "own": "own",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Employee",
+          "ofType": null,
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [],
+    "kind": "OBJECT",
+    "name": "Mutation",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "When adding new tags to the database, this type provides the necessary
+constraints",
+    "enumValues": null,
+    "fields": null,
+    "inputFields": Array [
+      Object {
+        "defaultValue": null,
+        "description": "",
+        "name": "name",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "defaultValue": null,
+        "description": "",
+        "name": "categories",
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": Object {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null,
+            },
+          },
+        },
+      },
+    ],
+    "interfaces": null,
+    "kind": "INPUT_OBJECT",
+    "name": "TagInput",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "The \`Upload\` scalar type represents a file upload.",
+    "enumValues": null,
+    "fields": null,
+    "inputFields": null,
+    "interfaces": null,
+    "kind": "SCALAR",
+    "name": "Upload",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "Use \`type\` as a identifier for mobile, office or other labels.
+Numbers are also free form strings.",
+    "enumValues": null,
+    "fields": null,
+    "inputFields": Array [
+      Object {
+        "defaultValue": null,
+        "description": "",
+        "name": "type",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "defaultValue": null,
+        "description": "",
+        "name": "number",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+    ],
+    "interfaces": null,
+    "kind": "INPUT_OBJECT",
+    "name": "PhoneNumberInput",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "Subscriptions enable you to register to a stream of events.
+
+This feature is also disabled at this moment",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": null,
+            "description": "",
+            "name": "id",
+            "type": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null,
+              },
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": "will return \`null\`",
+        "isDeprecated": false,
+        "name": "employeeProfileUpdates",
+        "permissions": Object {
+          "any": "any relation",
+        },
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "Employee",
+          "ofType": null,
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [],
+    "kind": "OBJECT",
+    "name": "Subscription",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "A GraphQL Schema defines the capabilities of a GraphQL server. It exposes all available types and directives on the server, as well as the entry points for query, mutation, and subscription operations.",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "A list of all types supported by this server.",
+        "isDeprecated": false,
+        "name": "types",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "LIST",
+            "name": null,
+            "ofType": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "OBJECT",
+                "name": "__Type",
+                "ofType": null,
+              },
+            },
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "The type that query operations will be rooted at.",
+        "isDeprecated": false,
+        "name": "queryType",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "__Type",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "If this server supports mutation, the type that mutation operations will be rooted at.",
+        "isDeprecated": false,
+        "name": "mutationType",
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "__Type",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "If this server support subscription, the type that subscription operations will be rooted at.",
+        "isDeprecated": false,
+        "name": "subscriptionType",
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "__Type",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "A list of all directives supported by this server.",
+        "isDeprecated": false,
+        "name": "directives",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "LIST",
+            "name": null,
+            "ofType": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "OBJECT",
+                "name": "__Directive",
+                "ofType": null,
+              },
+            },
+          },
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [],
+    "kind": "OBJECT",
+    "name": "__Schema",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "The fundamental unit of any GraphQL Schema is the type. There are many kinds of types in GraphQL as represented by the \`__TypeKind\` enum.
+
+Depending on the kind of a type, certain fields describe information about that type. Scalar types provide no information beyond a name and description, while Enum types provide their values. Object and Interface types provide the fields they describe. Abstract types, Union and Interface, provide the Object types possible at runtime. List and NonNull types compose other types.",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "kind",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "ENUM",
+            "name": "__TypeKind",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "name",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "description",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": "false",
+            "description": null,
+            "name": "includeDeprecated",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null,
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "fields",
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": Object {
+              "kind": "OBJECT",
+              "name": "__Field",
+              "ofType": null,
+            },
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "interfaces",
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": Object {
+              "kind": "OBJECT",
+              "name": "__Type",
+              "ofType": null,
+            },
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "possibleTypes",
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": Object {
+              "kind": "OBJECT",
+              "name": "__Type",
+              "ofType": null,
+            },
+          },
+        },
+      },
+      Object {
+        "args": Array [
+          Object {
+            "defaultValue": "false",
+            "description": null,
+            "name": "includeDeprecated",
+            "type": Object {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null,
+            },
+          },
+        ],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "enumValues",
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": Object {
+              "kind": "OBJECT",
+              "name": "__EnumValue",
+              "ofType": null,
+            },
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "inputFields",
+        "type": Object {
+          "kind": "LIST",
+          "name": null,
+          "ofType": Object {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": Object {
+              "kind": "OBJECT",
+              "name": "__InputValue",
+              "ofType": null,
+            },
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "ofType",
+        "type": Object {
+          "kind": "OBJECT",
+          "name": "__Type",
+          "ofType": null,
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [],
+    "kind": "OBJECT",
+    "name": "__Type",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "An enum describing what kind of type a given \`__Type\` is.",
+    "enumValues": Array [
+      Object {
+        "deprecationReason": null,
+        "description": "Indicates this type is a scalar.",
+        "isDeprecated": false,
+        "name": "SCALAR",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Indicates this type is an object. \`fields\` and \`interfaces\` are valid fields.",
+        "isDeprecated": false,
+        "name": "OBJECT",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Indicates this type is an interface. \`fields\` and \`possibleTypes\` are valid fields.",
+        "isDeprecated": false,
+        "name": "INTERFACE",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Indicates this type is a union. \`possibleTypes\` is a valid field.",
+        "isDeprecated": false,
+        "name": "UNION",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Indicates this type is an enum. \`enumValues\` is a valid field.",
+        "isDeprecated": false,
+        "name": "ENUM",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Indicates this type is an input object. \`inputFields\` is a valid field.",
+        "isDeprecated": false,
+        "name": "INPUT_OBJECT",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Indicates this type is a list. \`ofType\` is a valid field.",
+        "isDeprecated": false,
+        "name": "LIST",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Indicates this type is a non-null. \`ofType\` is a valid field.",
+        "isDeprecated": false,
+        "name": "NON_NULL",
+      },
+    ],
+    "fields": null,
+    "inputFields": null,
+    "interfaces": null,
+    "kind": "ENUM",
+    "name": "__TypeKind",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "Object and Interface types are described by a list of Fields, each of which has a name, potentially a list of arguments, and a return type.",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "name",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "description",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "args",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "LIST",
+            "name": null,
+            "ofType": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "OBJECT",
+                "name": "__InputValue",
+                "ofType": null,
+              },
+            },
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "type",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "__Type",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "isDeprecated",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "deprecationReason",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [],
+    "kind": "OBJECT",
+    "name": "__Field",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "Arguments provided to Fields or Directives and the input fields of an InputObject are represented as Input Values which describe their type and optionally a default value.",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "name",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "description",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "type",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "OBJECT",
+            "name": "__Type",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": "A GraphQL-formatted string representing the default value for this input value.",
+        "isDeprecated": false,
+        "name": "defaultValue",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [],
+    "kind": "OBJECT",
+    "name": "__InputValue",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "One possible value for a given Enum. Enum values are unique values, not a placeholder for a string or numeric value. However an Enum value is returned in a JSON response as a string.",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "name",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "description",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "isDeprecated",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "deprecationReason",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [],
+    "kind": "OBJECT",
+    "name": "__EnumValue",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "A Directive provides a way to describe alternate runtime execution and type validation behavior in a GraphQL document.
+
+In some cases, you need to provide options to alter GraphQL's execution behavior in ways field arguments will not suffice, such as conditionally including or skipping a field. Directives provide this by describing additional information to the executor.",
+    "enumValues": null,
+    "fields": Array [
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "name",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "description",
+        "type": Object {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null,
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "locations",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "LIST",
+            "name": null,
+            "ofType": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "ENUM",
+                "name": "__DirectiveLocation",
+                "ofType": null,
+              },
+            },
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": null,
+        "description": null,
+        "isDeprecated": false,
+        "name": "args",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "LIST",
+            "name": null,
+            "ofType": Object {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": Object {
+                "kind": "OBJECT",
+                "name": "__InputValue",
+                "ofType": null,
+              },
+            },
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": "Use \`locations\`.",
+        "description": null,
+        "isDeprecated": true,
+        "name": "onOperation",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": "Use \`locations\`.",
+        "description": null,
+        "isDeprecated": true,
+        "name": "onFragment",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null,
+          },
+        },
+      },
+      Object {
+        "args": Array [],
+        "deprecationReason": "Use \`locations\`.",
+        "description": null,
+        "isDeprecated": true,
+        "name": "onField",
+        "type": Object {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": Object {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null,
+          },
+        },
+      },
+    ],
+    "inputFields": null,
+    "interfaces": Array [],
+    "kind": "OBJECT",
+    "name": "__Directive",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "A Directive can be adjacent to many parts of the GraphQL language, a __DirectiveLocation describes one such possible adjacencies.",
+    "enumValues": Array [
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to a query operation.",
+        "isDeprecated": false,
+        "name": "QUERY",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to a mutation operation.",
+        "isDeprecated": false,
+        "name": "MUTATION",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to a subscription operation.",
+        "isDeprecated": false,
+        "name": "SUBSCRIPTION",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to a field.",
+        "isDeprecated": false,
+        "name": "FIELD",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to a fragment definition.",
+        "isDeprecated": false,
+        "name": "FRAGMENT_DEFINITION",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to a fragment spread.",
+        "isDeprecated": false,
+        "name": "FRAGMENT_SPREAD",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to an inline fragment.",
+        "isDeprecated": false,
+        "name": "INLINE_FRAGMENT",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to a schema definition.",
+        "isDeprecated": false,
+        "name": "SCHEMA",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to a scalar definition.",
+        "isDeprecated": false,
+        "name": "SCALAR",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to an object type definition.",
+        "isDeprecated": false,
+        "name": "OBJECT",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to a field definition.",
+        "isDeprecated": false,
+        "name": "FIELD_DEFINITION",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to an argument definition.",
+        "isDeprecated": false,
+        "name": "ARGUMENT_DEFINITION",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to an interface definition.",
+        "isDeprecated": false,
+        "name": "INTERFACE",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to a union definition.",
+        "isDeprecated": false,
+        "name": "UNION",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to an enum definition.",
+        "isDeprecated": false,
+        "name": "ENUM",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to an enum value definition.",
+        "isDeprecated": false,
+        "name": "ENUM_VALUE",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to an input object type definition.",
+        "isDeprecated": false,
+        "name": "INPUT_OBJECT",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Location adjacent to an input object field definition.",
+        "isDeprecated": false,
+        "name": "INPUT_FIELD_DEFINITION",
+      },
+    ],
+    "fields": null,
+    "inputFields": null,
+    "interfaces": null,
+    "kind": "ENUM",
+    "name": "__DirectiveLocation",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "",
+    "enumValues": Array [
+      Object {
+        "deprecationReason": null,
+        "description": "Any relation of the user to the target employee",
+        "isDeprecated": false,
+        "name": "any",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Currently logged in user is the target employee",
+        "isDeprecated": false,
+        "name": "own",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Currently logged in user is the superior of the target employee",
+        "isDeprecated": false,
+        "name": "suprerior",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Target employee is marked as disabled",
+        "isDeprecated": false,
+        "name": "isDisabled",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "Target employee is marked as suspended",
+        "isDeprecated": false,
+        "name": "isSuspended",
+      },
+    ],
+    "fields": null,
+    "inputFields": null,
+    "interfaces": null,
+    "kind": "ENUM",
+    "name": "_PermissionRelations_Employee",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "",
+    "enumValues": Array [
+      Object {
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "any",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "member",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "manager",
+      },
+    ],
+    "fields": null,
+    "inputFields": null,
+    "interfaces": null,
+    "kind": "ENUM",
+    "name": "_PermissionRelations_Project",
+    "possibleTypes": null,
+  },
+  Object {
+    "description": "test",
+    "enumValues": Array [
+      Object {
+        "deprecationReason": null,
+        "description": "test 2",
+        "isDeprecated": false,
+        "name": "any",
+      },
+      Object {
+        "deprecationReason": null,
+        "description": "",
+        "isDeprecated": false,
+        "name": "own",
+      },
+    ],
+    "fields": null,
+    "inputFields": null,
+    "interfaces": null,
+    "kind": "ENUM",
+    "name": "_PermissionRelations_Mutation_updateEmployeeProfile",
+    "possibleTypes": null,
+  },
+]
+`;
+
+exports[`secureResult 1`] = `
+Object {
+  "id": "test_empl1",
+  "prop2": "woot woot",
+}
+`;
