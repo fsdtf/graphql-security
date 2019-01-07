@@ -50,13 +50,6 @@ module.exports = {
             __PRODUCTION__: JSON.stringify(!DEV),
             __VERSION__: JSON.stringify(require('./package.json').version),
         }),
-        ...DEV ? [
-            new webpack.NamedModulesPlugin(),
-            new webpack.BannerPlugin({
-                banner: `require('source-map-support').install();\n`,
-                raw: true,
-                entryOnly: true,
-            }),
-        ] : [],
+        ...DEV ? [ new webpack.NamedModulesPlugin() ] : [],
     ],
 }

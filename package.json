@@ -8,6 +8,10 @@
     "Richard Keil"
   ],
   "repository": "git@github.com:fsdtf/graphql-security.git",
+  "homepage": "https://github.com/fsdtf/graphql-security#readme",
+  "bugs": {
+    "url": "https://github.com/fsdtf/graphql-security/issues"
+  },
   "main": "dist/index.js",
   "scripts": {
     "dev": "yarn test --watch",
@@ -18,8 +22,7 @@
   },
   "dependencies": {
     "cross-env": "5.2.0",
-    "graphql": "14.0.2",
-    "rxjs": "6.3.3"
+    "graphql": "14.0.2"
   },
   "devDependencies": {
     "@babel/core": "7.2.2",
@@ -44,7 +47,6 @@
     "jest-chain": "1.0.5",
     "jest-extended": "0.11.0",
     "jest-junit-reporter": "1.1.0",
-    "jest-workspace-resolver": "1.0.0",
     "source-map-support": "0.5.9",
     "webpack": "4.28.3",
     "webpack-cli": "3.2.1",

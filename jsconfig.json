@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "rootDirs": [
+            "node_modules",
+            "src"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "db",
+        "tmp",
+        "dist"
+    ]
+}

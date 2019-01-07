@@ -4126,13 +4126,6 @@ jest-worker@^23.2.0:
   dependencies:
     merge-stream "^1.0.1"
 
-jest-workspace-resolver@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/jest-workspace-resolver/-/jest-workspace-resolver-1.0.0.tgz#e3448da4ac95bccf660ea21215fef28ba659f126"
-  integrity sha1-40SNpKyVvM9mDqISFf7yi6ZZ8SY=
-  dependencies:
-    resolve "^1.5.0"
-
 jest@23.6.0:
   version "23.6.0"
   resolved "https://registry.yarnpkg.com/jest/-/jest-23.6.0.tgz#ad5835e923ebf6e19e7a1d7529a432edfee7813d"
@@ -5942,7 +5935,7 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rxjs@6.3.3, rxjs@^6.1.0:
+rxjs@^6.1.0:
   version "6.3.3"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.3.3.tgz#3c6a7fa420e844a81390fb1158a9ec614f4bad55"
   integrity sha512-JTWmoY9tWCs7zvIk/CvRjhjGaOd+OVBM987mxFo+OW66cGpdKjZcpmc74ES1sB//7Kl/PAe8+wEakuhG4pcgOw==
