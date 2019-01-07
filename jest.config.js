@@ -23,7 +23,7 @@ module.exports = {
         '<rootDir>/src/__tests__/resources/',
         '<rootDir>/src/__tests__/*',
     ],
-    'coverageDirectory': './dist/coverage/',
+    'coverageDirectory': './tmp/coverage-report/',
     'cacheDirectory': './tmp/jest-cache/',
     'globals': {
         '__DEV__': true,

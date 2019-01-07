@@ -18,8 +18,14 @@
     "build": "cross-env NODE_ENV=production webpack-cli",
     "test": "yarn lint && jest",
     "lint": "eslint --max-warnings 20 ./src",
-    "clean": "git clean -fdX ."
+    "clean": "git clean -fdX .",
+    "prepublish": "yarn test && yarn build"
   },
+  "files": [
+    "dist/",
+    "README.md",
+    "yarn.lock"
+  ],
   "dependencies": {
     "cross-env": "5.2.0",
     "graphql": "14.0.2"

@@ -5,6 +5,7 @@ hot/
 dist/
 build/
 release/
+package/
 temp/
 tmp/
 .next/
