@@ -1,4 +1,4 @@
-# package/cache/build directories
+# package/cache/build
 node_modules/
 PSD/
 hot/
@@ -6,10 +6,9 @@ dist/
 build/
 release/
 temp/
-package-lock.json
-.next/
 tmp/
-.vagrant
+.next/
+**/package-lock.json
 
 # test reports
 test-report.xml
@@ -47,14 +46,10 @@ Thumbs.db
 
 # ansible/relay/blackbox
 *.retry
+.vagrant
 **/__generated__/*
 
 /keyrings/live/pubring.gpg~
 /keyrings/live/pubring.kbx~
 /keyrings/live/secring.gpg
-/infrastructure/staging/api/SSLSecret.yml
-/infrastructure/staging/database/DatabaseSecret.yml
-/infrastructure/staging/docs/Secret.yml
-/infrastructure/production/database/DatabaseSecret.yml
-/infrastructure/production/Namespace.yml
-/infrastructure/staging/Namespace.yml
+/infrastructure/**/*Secret.yml
