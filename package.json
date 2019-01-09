@@ -19,7 +19,7 @@
     "test": "yarn lint && jest",
     "lint": "eslint --max-warnings 20 ./src",
     "clean": "git clean -fdX .",
-    "prepublish": "yarn test && yarn build"
+    "prepublishonly": "yarn test && yarn build"
   },
   "files": [
     "dist/",
