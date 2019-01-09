@@ -1,6 +1,6 @@
 {
   "name": "graphql-security",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "authors": [
     "Aramis Fernandes",
@@ -26,10 +26,11 @@
     "README.md",
     "yarn.lock"
   ],
-  "dependencies": {
+  "peerDependencies": {
     "graphql": "14.0.2"
   },
   "devDependencies": {
+    "graphql": "14.0.2",
     "@babel/core": "7.2.2",
     "@babel/plugin-proposal-export-default-from": "7.2.0",
     "@babel/plugin-proposal-export-namespace-from": "7.2.0",
