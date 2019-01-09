@@ -27,7 +27,6 @@
     "yarn.lock"
   ],
   "dependencies": {
-    "cross-env": "5.2.0",
     "graphql": "14.0.2"
   },
   "devDependencies": {
@@ -44,6 +43,7 @@
     "babel-jest": "23.6.0",
     "babel-loader": "8.0.5",
     "babel-plugin-macros": "2.4.4",
+    "cross-env": "5.2.0",
     "eslint": "5.12.0",
     "eslint-import-resolver-node": "0.3.2",
     "eslint-plugin-import": "2.14.0",

@@ -1,6 +1,4 @@
-import {
-    hasATrueRule,
-} from './security_groups_utils'
+import { hasATrueRule } from './security_groups_utils'
 
 const resolvePermissions = (session, rules, target, typeResolvers, relationCache) => {
     for (const [ relation, value ] of Object.entries(rules || {})) {

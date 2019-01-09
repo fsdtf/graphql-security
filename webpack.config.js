@@ -3,6 +3,7 @@ const webpack = require('webpack')
 const nodeExternals = require('webpack-node-externals')
 const absPath = dir => path.join(__dirname, dir)
 
+const PKG = require('./package.json')
 const DEV = process.env.NODE_ENV !== 'production'
 
 module.exports = {
@@ -48,7 +49,7 @@ module.exports = {
         new webpack.DefinePlugin({
             __DEV__: JSON.stringify(DEV),
             __PRODUCTION__: JSON.stringify(!DEV),
-            __VERSION__: JSON.stringify(require('./package.json').version),
+            __VERSION__: JSON.stringify(PKG.version),
         }),
         ...DEV ? [ new webpack.NamedModulesPlugin() ] : [],
     ],
