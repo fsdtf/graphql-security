@@ -80,7 +80,7 @@ export const getSchemaWithPermissions = schema => {
                         permissions,
                     }
                 })
-                return { ...type, fields: enhanced_fields }
+                return { ...type, fields: enhanced_fields, permissions: generalTypePermissions }
             } else {
                 return type
             }
