@@ -19,18 +19,20 @@
     "test": "yarn lint && jest",
     "lint": "eslint --max-warnings 20 ./src",
     "clean": "git clean -fdX .",
-    "prepublish": "yarn test && yarn build"
+    "prepublishonly": "yarn test && yarn build"
   },
   "files": [
     "dist/",
     "README.md",
     "yarn.lock"
   ],
+  "engines": {
+    "node": ">=8"
+  },
   "peerDependencies": {
-    "graphql": "14.0.2"
+    "graphql": "^0.12.0 || ^0.13.0 || ^0.14.0"
   },
   "devDependencies": {
-    "graphql": "14.0.2",
     "@babel/core": "7.2.2",
     "@babel/plugin-proposal-export-default-from": "7.2.0",
     "@babel/plugin-proposal-export-namespace-from": "7.2.0",
@@ -43,12 +45,13 @@
     "babel-eslint": "10.0.1",
     "babel-jest": "23.6.0",
     "babel-loader": "8.0.5",
-    "babel-plugin-macros": "2.4.4",
+    "babel-plugin-macros": "2.4.5",
     "cross-env": "5.2.0",
     "eslint": "5.12.0",
     "eslint-import-resolver-node": "0.3.2",
     "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jest": "22.1.2",
+    "eslint-plugin-jest": "22.1.3",
+    "graphql": "14.0.2",
     "husky": "1.3.1",
     "jest": "23.6.0",
     "jest-chain": "1.0.5",

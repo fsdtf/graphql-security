@@ -6,7 +6,7 @@
                 "useBuiltIns": "usage",
                 "debug": false,
                 "targets": {
-                    "node": "current"
+                    "node": "8"
                 }
             }
         ]
