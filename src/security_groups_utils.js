@@ -147,7 +147,7 @@ export const mergeSecurityGroupNames = (names) =>
  * @private true
  * @arg { [Object] } objs list of objects
  */
-const mergeSecurityRuleSets = (...ruleSets) => {
+export const mergeSecurityRuleSets = (...ruleSets) => {
     const combinedRuleSet = {}
 
     for (const ruleSet of ruleSets)
