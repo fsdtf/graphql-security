@@ -1,12 +1,12 @@
 import { hasATrueRule } from './security_groups_utils'
 
-const resolvePermissions = (session, rules, target, typeResolvers, relationCache) => {
+const resolvePermissions = (context, rules, target, typeResolvers, relationCache) => {
     for (const [ relation, value ] of Object.entries(rules || {})) {
         if (value) {
             const relationResolver = typeResolvers[relation]
             // todo: just throw an error?
             if (!relationResolver) return false
-            relationCache[relation] = typeResolvers[relation](session, target)
+            relationCache[relation] = typeResolvers[relation](context, target)
             if (relationCache[relation]) {
                 return true
             }
@@ -42,11 +42,11 @@ export const secureInboundQueryFields = (entityName, fields, secGroup) => {
     return safeFields
 }
 
-export const secureResult = (typeResolvers, viewer, secGroupSubGroup, target ) => {
+export const secureResult = (typeResolvers, context, secGroupSubGroup, target ) => {
     // const secGroupRules = secGroup.rules || {}
     const resolvedRelations = {}
     // check row rules
-    if (!resolvePermissions(viewer, secGroupSubGroup.row, target, typeResolvers, resolvedRelations)) {
+    if (!resolvePermissions(context, secGroupSubGroup.row, target, typeResolvers, resolvedRelations)) {
         return null
     }
     // check field rules
@@ -57,7 +57,7 @@ export const secureResult = (typeResolvers, viewer, secGroupSubGroup, target ) =
 
         const rules = (secGroupSubGroup.col || {})[field]
         // null fields that fail
-        if (!resolvePermissions(viewer, rules, target, typeResolvers, resolvedRelations)) {
+        if (!resolvePermissions(context, rules, target, typeResolvers, resolvedRelations)) {
             delete securedTarget[field]
         }
     }
@@ -90,7 +90,7 @@ export const parseReturnType = (returnType) => {
 export const resolverWrapper = (rootResolver, permissionResolvers) => {
 
     return async (obj, args, context, info) => {
-        const { security_group, viewer } = context
+        const { security_group } = context
         const { parentType, fieldName } = info
 
         if (!checkInboundQueryField(parentType, fieldName, security_group)) {
@@ -112,7 +112,7 @@ export const resolverWrapper = (rootResolver, permissionResolvers) => {
                     resolvedentities = await Promise.all(result)
                 }
                 for (const item of resolvedentities) {
-                    const securedResult = secureResult(returnResolver, viewer, secGroupRules, item)
+                    const securedResult = secureResult(returnResolver, context, secGroupRules, item)
                     if (securedResult) {
                         filteredResult.push(securedResult)
                     }
@@ -120,7 +120,7 @@ export const resolverWrapper = (rootResolver, permissionResolvers) => {
                 return filteredResult
             } else {
                 const resolvedentity = result instanceof Promise ? await result : result
-                return secureResult(returnResolver, viewer, secGroupRules, resolvedentity)
+                return secureResult(returnResolver, context, secGroupRules, resolvedentity)
 
             }
         } else {

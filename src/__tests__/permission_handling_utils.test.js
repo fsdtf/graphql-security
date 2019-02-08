@@ -19,16 +19,16 @@ const permResolvers = {
         any () {
             return true
         },
-        own (viewer, employee) {
+        own ({ viewer }, employee) {
             return viewer.id === employee.id
         },
-        superior (viewer, employee) {
+        superior ({ viewer }, employee) {
             return (viewer.mentor || {}).id === employee.id
         },
         active (viewer, employee) {
             return !employee.suspended
         },
-        dummy (viewer) {
+        dummy ({ viewer }) {
             return !!viewer.dummy
         },
     },

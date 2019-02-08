@@ -8,17 +8,6 @@
  * @export { Function } extractSubKeysFromRuleset
  */
 
-/*
- "Employee": Object {
-    "fields": Object {},
-    "type": Object {
-      "active": "Target employee is actively employed",
-      "any": "Any relation of the user to the target employee",
-      "dummy": "Viewer is marked as dummy",
-      "own": "Currently logged in user is the target employee",
-    },
-  },
- */
 import { IntrospectionSchema, GraphQLSchema, introspectionFromSchema } from 'graphql' // eslint-disable-line
 
 /**
@@ -317,7 +306,7 @@ export const verifySchemaAndPermissionResolvers = (schema, permissionResolvers) 
                 if (!Object.keys(enumType).length ) {
                     relevantEnums.delete(relation)
                 }
-            } else {
+            } else if (relation !== '__incoming__') {
                 errors.push({
                     error: 'invalid_permission_resolver_value',
                     message: `Invalid permission relation resolver ${ resolverType }.${ relation }: not found in enum _PermissionRelations_${ resolverType }`,
